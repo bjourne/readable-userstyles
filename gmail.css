@@ -1,0 +1,13 @@
+/*
+  Fixed width fonts for mail texts.
+  */
+
+/* Long lines hurt my eyes. */
+.ii {
+    max-width: 700px;
+}
+
+div, textarea {
+    font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+}
+

@@ -3,11 +3,23 @@
   */
 
 /* Long lines hurt my eyes. */
-.ii {
-    max-width: 700px;
+.ii 
+{
+    max-width: 670px;
 }
 
-div, textarea {
-    font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+.ii, textarea 
+{
+    font-family: "Monaco", "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+    font-size: 15px !important;
+}
+
+/* I have no idea how else you would override peoples stupid styles in
+   html formatted mails. */
+span[style="font-family:arial,sans-serif"],
+div[style="font-family:arial,sans-serif"] 
+{
+    font-family: "Monaco", "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+    font-size: 15px !important;
 }
 

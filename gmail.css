@@ -4,7 +4,8 @@
 
 /* Long lines hurt my eyes. */
 .ii {
-    max-width: 700px;
+    max-width: 650px;
+    line-height: 20px;
 }
 
 div, textarea {

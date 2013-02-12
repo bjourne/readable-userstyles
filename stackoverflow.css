@@ -1,0 +1,19 @@
+/* I prefer the Georgia font for reading. */
+.post-text p { 
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.summary h3, 
+.post-text p,
+#question-header h1 a,
+.question-status p,
+.question-status h2
+{
+    font-family: Georgia, Times, serif;
+}
+
+/* This removes the annoying share-nag block. */
+h2.bottom-notice {
+    display: none;
+}

@@ -3,9 +3,11 @@
   */
 
 /* Long lines hurt my eyes. */
+<<<<<<< HEAD
 .ii 
 {
     max-width: 670px;
+    line-height: 20px;
 }
 
 .ii, textarea 

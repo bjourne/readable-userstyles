@@ -154,20 +154,6 @@ pre {
 }
 pre:hover {overflow:auto!important;}
 
-/* pre, .default { */
-/*     /\* Thinner comments are more readable. *\/ */
-/*     max-width: 750px; */
-/* } */
-
-/* Intended to limit the width of Ask HN questions. */
-body center table tbody tr td table[border="0"]:nth-of-type(1) tbody tr td,
-/* fixed-width code */
-pre,
-/* comment boxes. */
-.default
-{
-    max-width: 750px !important;
-}
 
 
 .admin   { font-family:Georgia, Times, serif!important; font-size:8.5pt!important; color:#657b83!important; }
@@ -271,28 +257,53 @@ body center > table > tbody > tr:first-child > td > table > tbody > tr > td {
 
 /* This makes comment threading stand out more. */
 img[width="40"] {
-  width: 80px !important;
+  width: 60px !important;
   height: 1px;
 }
 img[width="80"] {
-  width: 160px !important;
+  width: 120px !important;
   height: 1px;
 }
 img[width="120"] {
-  width: 240px !important;
+  width: 160px !important;
   height: 1px;
 }
 img[width="160"] {
-  width: 320px !important;
+  width: 240px !important;
   height: 1px;
 }
 img[width="200"] {
-  width: 400px !important;
+  width: 300px !important;
   height: 1px;
 }
 img[width="240"] {
+  width: 360px !important;
+  height: 1px;
+}
+img[width="280"] {
+  width: 420px !important;
+  height: 1px;
+}
+img[width="320"] {
   width: 480px !important;
   height: 1px;
+}
+img[width="360"] {
+  width: 540px !important;
+  height: 1px;
+}
+img[width="400"] {
+  width: 600px !important;
+  height: 1px;
+}
+img[width="440"] {
+  width: 660px !important;
+  height: 1px;
+}
+/* Nobdy needs threading deeper than this. */
+img[width="480"] {
+    width: 720px !important;
+    height: 1px;
 }
 
 /* Top bar should fill whole screen. */
@@ -309,3 +320,15 @@ img[src="http://ycombinator.com/images/grayarrow.gif"] {
     background-color: #666;
 }
 
+/* Intended to limit the width of Ask HN questions. */
+body center table tbody tr td table[border="0"]:nth-of-type(1) tbody tr td,
+/* fixed-width code */
+pre,
+/* comment boxes. */
+.comment
+{
+    max-width: 750px !important;
+}
+.comment {
+    display: block !important;
+}

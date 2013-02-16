@@ -1,0 +1,56 @@
+/* http://userstyles.org/styles/82609/tv-tabl-sidan-tv-nu-rensad-av-superputte */
+#page_left {
+    width: 1300px;
+}
+.main_container {
+    width: 1200px;
+}
+.listing-wrapper {
+    width: 1100px;
+}
+.listing {
+    width: 1054px;
+}
+.sidebar{
+display: none !important;
+}
+.menu_right .serach_container {
+display: none !important;
+}
+[target="_blank"], IFRAME, IMG[src="/_graphics/annons_hor_728.gif"], [type="application/x-shockwave-flash"],
+#popup_advertise, #top_banner, .page_right, #footer, .bubble-container{
+display: none !important;
+}
+body, .site_container{
+margin-top: -10px !important;
+background: #f7f9f9 !important;
+}
+ul li a:hover{
+    color: rgb(0, 0, 255) !important;
+    font-weight: bold !important; 
+}
+.topnav .nav ul li a:link {
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+.nav ul li.active a {
+    color: rgb(0, 0, 255) !important;
+    font-weight: bold !important; 
+}
+
+.pg, .po, .py, .my, .mg, .tabla_topic p, .p15, .mo {
+    font-size: 14px;
+    background-image: none !important;
+}
+.tabla_container {
+    width: 338px;        
+}
+.tabla_content, .tabla_topic {
+    width: 328px;
+    background-image: none;
+    background-color: inherit;
+    border: none;
+}
+.svtv, .flerKanalerBox {
+    display: none;
+}

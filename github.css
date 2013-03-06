@@ -1,0 +1,14 @@
+#readme {
+    max-width: 750px;    
+}
+
+.markdown-body {
+    font-family: Georgia, Times, sans;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+.markdown-body h1 {
+    margin-bottom: 20px;
+}

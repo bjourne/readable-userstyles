@@ -327,7 +327,7 @@ pre,
 /* comment boxes. */
 .comment
 {
-    max-width: 750px !important;
+    max-width: 700px !important;
 }
 .comment {
     display: block !important;

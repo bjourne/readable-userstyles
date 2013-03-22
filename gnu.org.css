@@ -1,0 +1,9 @@
+/* For gnu.com and delorie.com which also often shows up in search
+results. */
+body { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    font-family: Georgia;
+    line-height: 24px;
+}

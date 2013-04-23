@@ -3,7 +3,6 @@
   */
 
 /* Long lines hurt my eyes. */
-<<<<<<< HEAD
 .ii 
 {
     max-width: 670px;
@@ -20,6 +19,12 @@
    html formatted mails. */
 span[style="font-family:arial,sans-serif"],
 div[style="font-family:arial,sans-serif"] 
+{
+    font-family: "Monaco", "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+    font-size: 15px !important;
+}
+
+div.ii p 
 {
     font-family: "Monaco", "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
     font-size: 15px !important;

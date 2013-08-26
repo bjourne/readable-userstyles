@@ -1,0 +1,14 @@
+body {
+    font-size: 28px !important;
+    font-family: Georgia, Times, serif !important;
+    max-width: 1500px !important;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+pre {
+    font-family: Monaco;
+    font-size: 14px;
+}

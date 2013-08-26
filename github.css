@@ -1,13 +1,16 @@
-#readme {
-    max-width: 750px;    
+#files, #readme, .discussion-bubble-content {
+    max-width: 750px;
 }
 
-.markdown-body {
+.markdown-body, .comment-body p, .email-fragment {
     font-family: Georgia, Times, sans;
     font-size: 18px;
     line-height: 27px;
 }
 
+.instapaper_title {
+    font-family: Georgia, Times, sans;
+}
 
 .markdown-body h1 {
     margin-bottom: 20px;

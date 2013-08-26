@@ -1,9 +1,10 @@
-/* For gnu.com and delorie.com which also often shows up in search
+/* For gnu.com, gnu.org and delorie.com which also often shows up in search
 results. */
-body { 
+body {
     margin-left: auto;
     margin-right: auto;
     width: 700px;
     font-family: Georgia;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 26px;
 }

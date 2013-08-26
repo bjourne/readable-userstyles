@@ -1,14 +1,14 @@
 /* I prefer the Georgia font for reading. */
-.post-text p, .post-text ol li { 
+.post-text p, .post-text ol li, .post-text ul li {
     font-size: 18px;
     line-height: 27px;
 }
 
-.summary h3, 
+.summary h3,
 .post-text p,
 #question-header h1 a,
 .question-status p,
-.question-status h2, .post-text ol li
+.question-status h2, .post-text ol li, .post-text ul li
 {
     font-family: Georgia, Times, serif;
 }

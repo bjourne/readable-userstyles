@@ -1,0 +1,18 @@
+body {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+span[style="font-family: sans-serif; font-style: normal; font-weight: normal; font-size: 12pt; "] {
+    font-family: Georgia, Times, sans !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+}
+
+span[style="font-family: monospace; font-size: 12pt; "] {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    display: inline-block !important;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: Georgia, Serif;
+}
+
+
+/* Typography */
+.usertext-body, .usertext-body .md p, .entry {
+    font-family: Georgia, Serif;
+    font-size: 18px;
+    line-height: 23px;
+    word-wrap: break-word;
+}
+
+
+.usertext-body {
+    max-width: 500px;
+    border-top: 2px solid #333;
+    margin-top: 5px;
+}
+
+
+.usertext-body .md p {
+}
+
+
+.usertext-body p {
+    margin-bottom: 14px !important;
+}
+
+.entry {
+    max-width: 500px;
+    margin-bottom: 12px;
+}
+
+blockquote {
+    font-style: italic;
+    margin-right: 0px;
+    padding-left: 8px !important;
+    padding-right: 0px;
+}

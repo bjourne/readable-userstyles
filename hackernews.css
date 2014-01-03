@@ -13,17 +13,17 @@ body {
     margin: 0px;
 }
 
-table {  
-    background-color: #fdf6e3 !important;   
+table {
+    background-color: #fdf6e3 !important;
 }
 tbody tr td {
     background-color: #fdf6e3!important;
 }
 
 span.pagetop {
-    color: #93a1a1 !important; 
-    padding-bottom: 30px !important; 
-    font-family: Georgia, Times, serif!important; 
+    color: #93a1a1 !important;
+    padding-bottom: 30px !important;
+    font-family: Georgia, Times, serif!important;
     font-size: 18px !important;
     line-height: 10px !important;
 }
@@ -37,7 +37,7 @@ span.pagetop a:link, span.pagetop a:visited {
     margin-bottom: 10px!important;
     padding-bottom: 4px!important;
     font-weight: normal!important;
-    border-bottom: 0px dotted #fff!important; 
+    border-bottom: 0px dotted #fff!important;
 }
 
 span.pagetop a:hover, span.pagetop a:active {
@@ -49,7 +49,7 @@ span.pagetop a:hover, span.pagetop a:active {
     margin-bottom: 10px!important;
     padding-bottom: 4px!important;
     font-weight: normal!important;
-    border-bottom: 0px dotted #cb4b16!important; 
+    border-bottom: 0px dotted #cb4b16!important;
 }
 
 /* Make the home link big and easy to click on. */
@@ -58,26 +58,26 @@ span.pagetop a[href="news"] {
     font-weight: bold !important;
 }
 
-body  { 
-    font-family:Georgia, Times, serif !important; 
-    font-size: 18px !important; 
-    color: #657b83 !important; 
+body  {
+    font-family:Georgia, Times, serif !important;
+    font-size: 18px !important;
+    color: #657b83 !important;
 }
 
-td { 
-    font-family: Georgia, Times, serif!important; 
-    font-size: 18px!important; 
-    color: #555 !important; 
-    padding: 3px!important; 
+td {
+    font-family: Georgia, Times, serif!important;
+    font-size: 18px!important;
+    color: #555 !important;
+    padding: 3px!important;
     line-height: 24px;
 }
 
 .admin td   { font-family:Georgia, Times, serif!important; font-size:8.5pt!important; color:#657b83!important; }
-td.subtext { 
-  font-family:Georgia, Times, serif!important; 
-  font-size:  18px!important; 
+td.subtext {
+  font-family:Georgia, Times, serif!important;
+  font-size:  18px!important;
   color: #999999!important;
-  border-bottom: 1px dotted #ddd!important ; 
+  border-bottom: 1px dotted #ddd!important ;
 }
 
 form {
@@ -127,7 +127,7 @@ textarea {
     -moz-border-radius: 4px!important;
     -webkit-border-radius: 4px!important;
     border-radius: 4px!important;
-    width: 660px!important; 
+    width: 660px!important;
 }
 
 a:link    { color:#cb4b16!important; text-decoration:none!important; border-bottom: 1px dotted #fff!important; }
@@ -157,21 +157,6 @@ pre:hover {overflow:auto!important;}
 
 
 .admin   { font-family:Georgia, Times, serif!important; font-size:8.5pt!important; color:#657b83!important; }
-.title   { font-family:Georgia, Times, serif!important; font-size: 12pt!important; color:#999999!important; padding-top: 12px!important; font-weight: normal!important;}
-
-.title a:link {
-    font-weight: normal!important;
-    font-family:Georgia, Times, serif!important;
-    font-size: 14pt !important;
-    color:#000 !important;
-    margin-right: 6px;
-}
-
-.title a:hover, .title a:active {
-	border-bottom: 1px dotted #cb4b16!important;
-}
-.title a:visited { color:#aaaaaa; border-bottom:1px dotted #fff;}
-
 .adtitle { font-family:Georgia, Times, serif!important; font-size:  9pt!important; color:#999999!important; }
 
 
@@ -186,20 +171,6 @@ pre:hover {overflow:auto!important;}
 
 
 .pagetop { font-family:Georgia, Times, serif!important; font-size: 12pt!important; color:#657b83!important; }
-.comhead {
-    font-family:Georgia, Times, serif!important;
-    font-size:  16px !important;
-    color:#888888!important;
-}
-
-.comment { 
-    color:  #657b83!important;
-    font-family:Georgia, Times, serif!important; 
-    font-size:  18px !important; 
-    line-height: 27px!important; 
-    padding-top: 10px!important; 
-}
-
 .dead    { font-family:Georgia, Times, serif!important; font-size:  9pt!important; color:#dddddd!important; }
 i {
 	font-style: italic!important;
@@ -212,7 +183,9 @@ u {
 
 
 
-.comment a:link, .comment a:visited  { color: #cb4b16!important; border-bottom: 1px dotted #fff!important; font-weight:normal!important;}
+.comment a:link, .comment a:visited  {
+    color: #cb4b16!important; border-bottom: 1px dotted #fff!important; font-weight:normal!important;
+}
 
 .comment a:hover, .comment a:active {color: #cb4b16!important; border-bottom: 1px dotted #cb4b16!important; font-weight:normal!important;}
 
@@ -240,7 +213,7 @@ u {
     margin-bottom: 0px!important;
     padding-bottom: 5px;
     padding-top: 15px!important;
-    text-rendering:optimizeLegibility!important; 
+    text-rendering:optimizeLegibility!important;
 }
 
 
@@ -249,8 +222,8 @@ u {
 
 
 body center > table > tbody > tr:first-child > td,
-body center > table > tbody > tr:first-child > td > table, 
-body center > table > tbody > tr:first-child > td > table > tbody > tr > td { 
+body center > table > tbody > tr:first-child > td > table,
+body center > table > tbody > tr:first-child > td > table > tbody > tr > td {
     background-color: #002b36!important;
     height: 50px;
 }
@@ -308,7 +281,7 @@ img[width="480"] {
 
 /* Top bar should fill whole screen. */
 table[width="85%"] {
-    width: 100% !important;  
+    width: 100% !important;
 }
 
 /* Upvote arrows should be bigger. I don't care that it looks ugly -
@@ -321,14 +294,62 @@ img[src="http://ycombinator.com/images/grayarrow.gif"] {
 }
 
 /* Intended to limit the width of Ask HN questions. */
-body center table tbody tr td table[border="0"]:nth-of-type(1) tbody tr td,
-/* fixed-width code */
-pre,
-/* comment boxes. */
-.comment
-{
-    max-width: 700px !important;
-}
+
+
 .comment {
+    color:  #657b83!important;
+    font-family:Georgia, Times, serif!important;
+
+}
+
+.comhead {
+    font-family:Georgia, Times, serif!important;
+    font-size:  16px !important;
+    color:#888888!important;
+    /* border-bottom: 2px solid #444; */
+    /* display: block; */
+}
+
+.comment {
+    margin-top: -11px !important;
+    padding-top: 4px !important;
+    border-top: 2px solid #555;
+}
+
+/* fixed-width code */
+body center table tbody tr td table[border="0"]:nth-of-type(1) tbody tr td, pre, .comment {
+    max-width: 500px !important;
     display: block !important;
+    font-size:  18px !important;
+    line-height: 27px!important;
+}
+
+
+.title {
+    font-family:Georgia, Times, serif!important;
+    font-size: 12pt!important;
+    color:#999999!important;
+    padding-top: 12px!important;
+    font-weight: normal!important;
+
+}
+
+.title a:link {
+    font-weight: normal!important;
+    font-family:Georgia, Times, serif!important;
+    font-size: 14pt !important;
+    color:#000 !important;
+    margin-right: 6px;
+}
+
+.title a:hover, .title a:active {
+    border-bottom: 1px dotted #cb4b16!important;
+}
+.title a:visited {
+    color:#aaaaaa; border-bottom:1px dotted #fff;
+}
+
+/* hack hack hack! */
+center > table table[border="0"][cellpadding="0"][cellspacing="0"] {
+    margin-left: 20px;
 }

@@ -1,0 +1,9 @@
+.container {
+    width: 800px;
+}
+
+p {
+    font-family: Times, Georgia;
+    font-size: 20px;
+    line-height: 25px;
+}

@@ -1,0 +1,8 @@
+/* For urls on wiki.archlinux.org */
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}

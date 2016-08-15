@@ -1,0 +1,12 @@
+/* For urls on bbs.archlinux.org */
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.postmsg p, .postmsg em, .postmsg p a {
+    font-family: Georgia, serif !important;
+    font-size: 20px;
+    line-height: 26px;
+}

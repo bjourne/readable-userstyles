@@ -1,0 +1,43 @@
+/* Typography */
+.usertext-body, .usertext-body .md p, .entry {
+    font-family: Georgia, Serif;
+    font-size: 21px;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.linkflairlabel {
+    font-size: 15px !important;
+}
+
+a.title, .domain, .tagline, .md {
+    font-size: 21px !important;
+    line-height: 27px !important;
+}
+
+.usertext-body {
+    max-width: 500px;
+    border-top: 2px solid #333;
+    margin-top: 5px;
+}
+
+.usertext-body p {
+    margin-bottom: 14px !important;
+}
+
+.entry {
+    max-width: 500px;
+    margin-bottom: 12px;
+}
+
+blockquote {
+    font-style: italic;
+    margin-right: 0px;
+    padding-left: 8px !important;
+    padding-right: 0px;
+}
+
+textarea {
+    font-family: inconsolata !important;
+    font-size: 16px !important;
+}
